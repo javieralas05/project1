@@ -35,6 +35,9 @@ body{
 .card__headline--title{
     color: hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
+    margin: 80px;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 
 span{
@@ -44,8 +47,36 @@ span{
 .card__description--content{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    margin: 80px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-weight: 400;
 }
+
+.card__value{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 80px;
+
+}
+
+.card__value--amount{
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card__value--type{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-size: 11   px;
+    font-weight: 400;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
 
 .card__2{
     height: 446px;
