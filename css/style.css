@@ -91,6 +91,18 @@ span{
     border-radius: 0px 5px 5px 0px;
 }
 
+.attribution{
+    display: block;
+    flex-direction: row;
+    position: absolute;
+    color: whitesmoke;
+    bottom: 10px;
+}
+
+a {
+    color: bisque;
+}
+
 
 /*
 .Main__container{
